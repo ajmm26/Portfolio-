@@ -28,15 +28,24 @@ background-image: url(https://media.giphy.com/media/oOxSXI5D2cvc6kYSvw/giphy-dow
 
 
 #div-img{
+    display: flex;
+    justify-content: center;
     margin: 2%;
+   
+   
+    
+}
+
+.figure{
+    border: 5px inset rgb(76, 114, 58);
+    border-radius: 70%;
+    overflow: hidden;
 }
 
 
 #myself{
-    
-    border-radius: 100%;
-    width: 20vw;
-    height: 50vh;
+    width: 200px;
+    height: 45vh;
 
     
 }
